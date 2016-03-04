@@ -1,0 +1,6 @@
+[yamllint]
+flags = todo
+# TODO: Uncomment when package uploaded to Debian (see ITP bug #816609)
+#apt = yamllint
+files = *.yaml *.yml
+command = yamllint {files}
